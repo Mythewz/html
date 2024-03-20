@@ -1,16 +1,49 @@
 *{
     margin: 0%;
-    border: 0%;
     padding: 0%;
+
 }
-nav{
+.navbar{
+    background-color: rgb(5, 10, 10);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.links>ul{
+.Nitems{
+    list-style: none;
+    display: flex;
+    margin-right: 150px;
+}
+.Nitems>li{
+    padding-left: 60px;
+}
+.Nitems>li>a{
+    color: white;
+    text-decoration: none;
     font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Nitems>li>acronym:hover{
+    cursor: default;
 }
 .links{
-    display: flex;
-    justify-content: end;
+    align-items: center;
+}
+.logo>a>img{
+    padding-left: 30px;
+    padding-top: 10px;
+    cursor: default;
+}
+.Nitems>li>acronym{
+        color: white;
+        text-decoration: none;
+        font-family: "Pixelify Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+}
+body{
+    background-color: gray;
 }

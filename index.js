@@ -1,0 +1,1 @@
+const Paob = document.querySelector('')
